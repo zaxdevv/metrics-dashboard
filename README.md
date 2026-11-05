@@ -2,7 +2,7 @@
 
 Статический дашборд на ванильном JavaScript и Chart.js. Данные демо: их генерирует seeded PRNG (mulberry32) прямо в браузере, поэтому числа детерминированные и воспроизводимые. Бэкенда нет. Вся аналитика поверх этих данных считается по-настоящему: дельты, тренды и атрибуция вычисляются из временных рядов, а не захардкожены.
 
-**Live demo:** [hmsusbusas-png.github.io/metrics-dashboard](https://hmsusbusas-png.github.io/metrics-dashboard/)
+**Live demo:** [zaxdevv.github.io/metrics-dashboard](https://zaxdevv.github.io/metrics-dashboard/)
 
 ![Дашборд, десктопная версия](screenshots/desktop.png)
 
@@ -79,4 +79,4 @@ metrics-dashboard/
 
 ## EN
 
-A static sales analytics dashboard in vanilla JS + Chart.js. Demo data is generated in the browser with a seeded PRNG (mulberry32), deterministic and reproducible, nothing leaves the page. All analytics on top is computed for real from those daily series: KPI deltas compare the period against the previous period of the same length, the product trend is the last 7 days vs the previous 7, and the channel bar and category donut are summed from the same rows. Sortable searchable table, 7/30/90-day filter, CSV export, dark/light theme with localStorage. Open `index.html` or run `python -m http.server 8000`. Live: https://hmsusbusas-png.github.io/metrics-dashboard/
+A static sales analytics dashboard in vanilla JS + Chart.js. Demo data is generated in the browser with a seeded PRNG (mulberry32), deterministic and reproducible, nothing leaves the page. All analytics on top is computed for real from those daily series: KPI deltas compare the period against the previous period of the same length, the product trend is the last 7 days vs the previous 7, and the channel bar and category donut are summed from the same rows. Sortable searchable table, 7/30/90-day filter, CSV export, dark/light theme with localStorage. Open `index.html` or run `python -m http.server 8000`. Live: https://zaxdevv.github.io/metrics-dashboard/
